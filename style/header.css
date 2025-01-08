@@ -1,0 +1,58 @@
+
+.header {
+    background-color: #eceeef;
+    border-bottom: 2px solid #a5bac5;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.header::after {
+    content: "";
+    clear: both;
+    display: table;
+
+
+
+}
+
+.header-logo {
+    display: block;
+    width: 200px;
+    float: left;
+}
+
+
+.header-logo-img {
+    width: 100%;
+
+}
+
+.header-navegation {
+    float: right;
+}
+
+header ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.header-navegation-item {
+    display: inline;
+    pad: 0 4px;
+    
+}
+
+header ul a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: #2a0f14;
+}
+
+header ul a:hover {
+    color: salmon;
+    text-decoration: underline;
+}
+
+
